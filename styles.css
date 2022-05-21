@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'WorkSans-Bold';
+    src: url('assets/fonts/Work_Sans/WorkSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Work_Sans-Regular';
+    src: url('assets/fonts/Work_Sans/WorkSans-Regular.ttf');
+}
+
+body {
+  background-color: #E3CAA5;
+}
+
+.display {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 150px;
+}
+
+.display h1 {
+    font-size: 35px;
+    color: #000;
+}
+
+.temp_calculator {
+    width: 480px;
+    margin: 50px auto;
+    background-color:#AD8B73;
+    border-radius: 4px;
+    margin-top: 140px;
+    font-size:x-large;
+    margin-left: 490px;
+}
+
+form {
+    padding: 15px;
+}
+
+h4.title {
+    background:#AD8B73;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.calculator_input {
+    float: left;
+}
+
+label {
+    font-size: large;
+}
+
+input {
+    width: 100%;
+    font-size:16px;
+    border: none;
+    background: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.result_area label {
+    width:fit-content;
+    float: left;
+    margin-top: 6px;
+    font-size: large;
+}
+
+.result_area input {
+    width: 60%;
+    font-size:16px;
+}
+
+.calculator_value label {
+    width: 18px;
+    float: left;
+    width: fit-content;
+    margin-top: 6px;
+    font-size: large;
+}
+
+.calculator_value input {
+    width: 60%;
+    font-size:16px;
+}
+
+.calculator_value {
+    margin-bottom: 30px;
+}
+
+.calculator_input {
+    padding: 0px 23px;
+    margin-bottom: 30px;
+}
+
+.result_area {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.btn#convert {
+    float: right;
+}
+
+
+select {
+    padding: 5px;
+}
+#pic{
+    display:flex;
+}
+#pic img{
+    content: " ";
+    position: absolute;
+    top:0;
+    right:0;
+    background: url('background.png')no-repeat center center/cover;height: 760px;
+    width: 100%;
+    z-index: -1;
+}
+
+.btn {
+  background-image: -webkit-linear-gradient(top, CEAB93, #CEAB93);
+  background-image: -moz-linear-gradient(top, #CEAB93, #CEAB93);
+  background-image: -ms-linear-gradient(top, #CEAB93, #CEAB93);
+  background-image: -o-linear-gradient(top, #CEAB93, #CEAB93);
+  background-image: linear-gradient(to bottom, #CEAB93, #CEAB93);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  font-family: Arial;
+  text-decoration: none;
+  width: 45%;
+  padding: 12px;
+  border: none;
+  background:#CEAB93;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: medium;
+}
+
+.btn:hover {
+  background: #E3CAA5;
+  background-image: -webkit-linear-gradient(top, #E3CAA5, 3E3CAA5);
+  background-image: -moz-linear-gradient(top, #E3CAA5, 3E3CAA5);
+  background-image: -ms-linear-gradient(top, #E3CAA5, 3E3CAA5);
+  background-image: -o-linear-gradient(top, #E3CAA5, 3E3CAA5);
+  background-image: linear-gradient(to bottom, #E3CAA5, 3E3CAA5);
+  text-decoration: none;
+
+}
